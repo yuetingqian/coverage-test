@@ -14,3 +14,9 @@ before_install:
 
 # command to run tests, e.g. python setup.py test
 script: ./test.sh
+
+after_failure:
+    - ls -l
+
+after_success:
+    - ls
