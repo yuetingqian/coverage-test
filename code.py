@@ -1,3 +1,3 @@
 import md5
 def mymd5():
-    print md5.new('123')
+    return md5.new('123')
