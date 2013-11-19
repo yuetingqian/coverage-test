@@ -5,4 +5,4 @@ coverage html
 
 python -m unittest test
 
-ll htmlcov/
+ls -l  htmlcov/
