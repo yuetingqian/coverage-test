@@ -4,3 +4,5 @@ coverage report -m
 coverage html
 
 python -m unittest test
+
+ll htmlcov/
