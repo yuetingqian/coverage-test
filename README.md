@@ -5,7 +5,8 @@ python coverage test
 
 ### 环境要求
 * python 2.7
-* coverage.py (`sudo pip install coverage`),如果没有安装pip,`sudo apt-get install python-pip`
+* coverage.py (`sudo pip install coverage`),
+    如果没有安装pip,`sudo apt-get install python-pip`
 
 ### 参考文档
 * [python unintest](http://docs.python.org/2/library/unittest.html)
@@ -32,8 +33,11 @@ python -m unittest test     # 执行test.py单元测试
 ### 详细说明        
 * unittest
   例如 `test.py`
+
   class继承unittest.Testcase
+  
   testcase以小写test开头
+  
   最后都要有断言，如`assertEqual()`
 
 
