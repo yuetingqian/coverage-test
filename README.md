@@ -32,13 +32,13 @@ python -m unittest test     # 执行test.py单元测试
 
 ### 详细说明        
 * unittest
-  例如 `test.py`
+    例如 `test.py`
 
-  class继承unittest.Testcase
+    class继承unittest.Testcase
   
-  testcase以小写test开头
+    testcase以小写test开头
   
-  最后都要有断言，如`assertEqual()`
+    最后都要有断言，如`assertEqual()`
 
 
 * coverage
@@ -49,10 +49,10 @@ coverage html           # 生成html report, 默认存在hmtlcov下面，-d可�
 ```
 
 * .travis.yml
-  如果你把代码push到github上面，访问[travis](https://travis-ci.org/)
+    如果你把代码push到github上面，访问[travis](https://travis-ci.org/)
 
-  授权登录后点右上角Accounts,在repos里打开要同步的项目。
+    授权登录后点右上角Accounts,在repos里打开要同步的项目。
 
-  每当该项目有commit的时候，travis会自动通过`.travis.yml`自动build
+    每当该项目有commit的时候，travis会自动通过`.travis.yml`自动build
 
-  具体配置方法[build-config](http://about.travis-ci.org/docs/user/build-configuration/#.travis.yml-file%3A-what-it-is-and-how-it-is-used)
+    具体配置方法[build-config](http://about.travis-ci.org/docs/user/build-configuration/#.travis.yml-file%3A-what-it-is-and-how-it-is-used)
